@@ -2,6 +2,17 @@ HTML CSS JSResult Skip Results Iframe
 EDIT ON
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 
+.zoom {
+padding:50px;
+transition: transform .2s;
+width: 200px;
+height: 200px;
+margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(1.5);
+}
 
  text-align: center;
     font-family: 'Audiowide', cursive;
@@ -10,11 +21,19 @@ EDIT ON
     }
 
 .flags {
-    display: block;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 0px;
     }
+.usFlag {
+width: 120px;
+height: 60px;
+
+}
+.gang {
+width: 120px;
+height: 120px;
+float: left;}
 .container
 {
     background-color:#gray;
